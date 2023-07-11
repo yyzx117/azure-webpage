@@ -5,8 +5,9 @@ languages:
 - javascript
 products:
 - azure
-- azure-app-service
-description: "This sample demonstrates a tiny Hello World Node.js app for Azure App Service."
+- Jenkins
+- Sonarqube
+description: "This sample displays a tiny Hello World Node.js app based on the Azure and Jenkins Service with Sonarqube scanner."
 ---
 
 # Node.js Hello World
