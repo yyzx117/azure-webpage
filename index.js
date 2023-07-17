@@ -6,5 +6,5 @@ app.get('/', function (req, res) {
 })
 
 app.listen(3000, function() {
-    console.log('Hello world app listgening on port 3000!')
+    console.log('Hello world app listening on port 3000!')
 })
