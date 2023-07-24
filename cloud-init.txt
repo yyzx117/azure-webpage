@@ -1,5 +1,5 @@
 #cloud-config
-oackage_upgrade: true
+package_upgrade: true
 packages:
   - nginx
   - nodejs
@@ -7,9 +7,9 @@ packages:
 
 write_files:
   - owner: www-data:www-data
-  path: /etc/nginx/sites-available/default
-  content: |
-    server {
+    path: /etc/nginx/sites-available/default
+    content: |
+      server {
         listen 80;
         location / {
             proxy_pass http://localhost:3000;
@@ -19,7 +19,7 @@ write_files:
             proxy_set_header Host $host;
             proxy_cache_bypass $http_upgrade;
         }
-    }
+      }
   - path: /home/ritay/index.js
     content: |
       var express = require('express')
