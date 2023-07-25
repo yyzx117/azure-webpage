@@ -33,7 +33,7 @@ write_files:
 
 runcmd:
   - service nginx restart
-  - npm init
-  - npm install express
   - cd /home/ritay
+  - npm init
+  - npm install express -y
   - nodejs index.js
