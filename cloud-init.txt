@@ -36,4 +36,6 @@ runcmd:
   - cd /home/ritay
   - npm init
   - npm install express -y
-  - nodejs index.js
+  - npm install -g pm2
+  - echo "Yyzx@2002369" | sudo pm2 start index.js -i 3
+  - echo "Yyzx@2002369" | sudo pm2 startup
