@@ -3,19 +3,19 @@
 
 ## Description
 
-This project displays a tiny automated Hello World Node.js app based on the Azure Service with Sonarqube Scanner.
+This project displays a tiny automated Hello World Node.js app based on the Azure Service secured by Sonarqube.
 
 ## Languages:
 - NodeJS
-- JavaScript
 - Bash Script
-- Azure Cloud Shell
+- Azure Cloud Shell/Azure CLI
 - Linux terminal
 ## Services and Tools:
 - Azure
 - Jenkins
 - Sonarqube
 - Docker
+- Nginx
 ## Pipeine:
 - CI/CD Pipeline
 ### Contributing
