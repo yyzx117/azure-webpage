@@ -2,7 +2,7 @@ var express = require('express')
 var app = express()
 app.disable("x-powered-by")
 app.get('/', function (req, res) {
-    res.send('Hello world world!')
+    res.send('Hello world!')
 })
 
 app.listen(3000, function() {
